@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: auto;
+}
+h1 {
+  font-family: "Palatino", sans-serif;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+}
+header {
+  background-color: #ffffff;
+  text-align: center;
+  color: #212529;
+  border-bottom: solid 3px #dee2e6; /*este es un comentario*/
+  /*padding:30px  20px 80px 10px;*/
+  padding: 60px 0;
+}
+nav {
+  background-color: #4d7c8a;
+  padding: 20px;
+  border-bottom: none;
+    text-align: center;
+  font-size: 25px;
+}
+nav a{
+    text-decoration: none;
+    color:#ffffff;
+    padding: 10px 16px;
+    text-transform:capitalize;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+nav a:hover{
+    background-color: #3a5f6a;
+    border-radius: 6px;
+
+
+
+}
+#bienvenida{
+    padding: 30px;
+    text-align: center;
+}
+#proyectos {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  border-top:1px solid #dee2e6;
+  border-bottom:1px solid #dee2e6;
+}
+.lista-proyecto{
+    display:flex;
+    padding-top:20px;
+}
+.proyecto{
+    width: 30%;
+    border: solid 1px #dee2e6;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:#fafafa;
+}
+.proyecto h3{
+    color: #343a40;
+
+}
+#competencias{
+    padding: 30px 30px;
+
+
+}
+#competencias h2{
+    padding-bottom: 30px;
+    text-align: center;
+}
+#competencias ul{
+    list-style:none;
+    padding: 0;
+    display:flex;
+    gap:16px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#competencias ul li{
+    background-color: #6b9e7f;
+    color:#ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight:500;
+
+    
+}
+progress {
+    width:40%;
+    height:12px;
+    border:none;
+    border-radius: 6px;
+    background-color: #e9ecef;
+
+}
+progress::-webkit-progress-value {
+    background-color: #6b9e7f;
+    border-radius: 6px;
+
+}
+progress::-moz-progress-bar {
+    background-color: #6b9e7f;
+    border-radius: 6px;
+}
+#contacto {
+    padding: 30px;
+    border-top: 2px dashed #2adbb4;
+}
+.campos{
+    padding: 10px;
+    clear:both;
+    font-size: 16px;
+}
+.campos label{
+    font-size:20px;
+}
+.campos input{
+    font-size: 18px;
+    padding: 10px;
+    border: solid 1px #ced4da;
+    border-radius: 8px;
+    width: 30%;
+    background-color: #ffffff;
+}
+.campos button{
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: #4d7c8a;
+    color: white;
+    width:20%;
+    border:none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+footer {
+    padding:30px;
+    background-color: #f1f3f5;
+    color: #495057;
+    font-size:  14px;
+    border-top: 1px solid #dee2e6;
+    text-align:  center;
+    
+}
